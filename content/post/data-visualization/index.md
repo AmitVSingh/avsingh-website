@@ -1,157 +1,24 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: 🧠 Supervised and unsupervised learning in PhD
+summary: A parallel between machine learning and human learning!
+date: 2019-07-09
 authors:
   - admin
 tags:
   - Hugo
   - Hugo Blox
   - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
+In doctoral education, one has to take responsibility of the learning and for getting the PhD, the highest possible degree awarded by a university. Learning usually has two main elements one exploration and the other practice. PhD aims to incorporate these elements in their routine and become a full research professional in the end. The final and crucial skill which professionals must acquire is the ability to evaluate and re-evaluate their work and that of others in the light of current developments. The nature of research differs from daily life usage of the term like “market research” or “research for a documentary”. PhD research requires a contribution to the analysis and explanation of the topic, not just description. It requires an understanding that it is as important a part of the research process to fashion the questions properly as it is to develop interesting answers.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+The successful PhD’s emerge with a new identity as competent professionals, able to argue their viewpoint with anybody regardless of status, confident of their knowledge but also aware of its boundaries. This new identity permits them to ask for information when they are aware that they don’t know something and to express a lack of understanding when this is necessary, instead of pretending that there is no difficulty for fear of being thought stupid. They are also in a position to help others and can ask for help when in need. Besides, they can formulate the question very well and identify the right person for suggestion and build a team of adequate people.
 
-## Charts
+This training process needs a supervisor to understand the basic elements of doing fruitful research. It must be communicated clearly between supervisor and student that what supervisor expects of student and what student expects of supervisor. The training methods may have certain variability among different disciplines but generally, a supervisor wants eventually their student to become an independent researcher who can identify a research problem, to estimate the required resources and solve it using appropriate methodologies. In the beginning of their PhD, students need more attention from the supervisor and subsequently, become more independent and can be left to their own devices. Supervisor’s experience becomes again crucial towards the end phase of the PhD. This is regarding the thesis writing phase. The supervisor may help to carve out the entire research and it’s results in its best shape so that it can be communicated most effectively to the outer world. Generally, a thesis should be simple enough to encourage reading from other disciplines but at the same time, it should not sacrifice its original meaning. After going through all the stages students are ready to manage on their own and can make progress in their life under so-called “unsupervised learning”.
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+To make the idea of supervised and unsupervised learning more clear, a nice parallel can be found in the machine learning domain. The term supervised learning originates from the view of a target being provided by an instructor or teacher who shows the machine learning system what to do. In unsupervised learning, there is no instructor or teacher, and the algorithm must learn to make sense of data without this guide. Informally, unsupervised learning refers to most attempts to extract the information from a distribution that does not require human labor to label the dataset and therefore saves time and money thus more desirable. The irony is machines are getting better at learning from their human counterparts in some domains as putting sarcastically in the graphics on the top.
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
-
-Demo:
-
-{{< chart data="line-chart" >}}
-
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
-
-## Diagrams
-
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
-
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-## Data Frames
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+The parallel of machine learning aligns well with the training of a professional researcher. The degree of professionalism makes the researcher should be able to find out the root cause of a problem, making a plan of attack and eventually solve them. A PhD student must understand these subtle differences between supervised and unsupervised learning and should prepare himself for the development of the generic skills of communication, personal effectiveness, team working and career management. So I firmly believe that the research professionals not only become master of their research topic but also develop generic skills of greater employability. Although PhD is truly an example of delayed gratification, it certainly helps in widening the career horizons.

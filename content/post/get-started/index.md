@@ -1,6 +1,6 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+title: 🎉 Easily create your own simple yet highly customizable website
+summary: Build aesthetically pleasing ‘personal websites’ for free…
 date: 2023-10-27
 
 # Featured image
@@ -10,7 +10,6 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic
@@ -22,13 +21,19 @@ Welcome 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
-## Overview
+<!-- ## Overview -->
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+Since the dawn of human civilization, we have been talking about the transformation of one or other kind. In this digital age, when human and machine interaction has increased manifolds, it has already started shaping ourself be it the fruits of our hard work in form of digital currencies, our creativity like composing music and writing a novel by AI machines, or communicating with human-like chatbots. The best way to respond to this change between carbon-based life and silicon-based life is by merging our identities with machines in forms of bits and bytes. Conventionally, bytes are used to store memory and bits for streaming the data. A baby step would be first to register our presence by building a personal websites. These websites would be the digital warehouses where we can store the relevant information and communicate it with the outer world.
+
+In this blog, I will give you a brief yet complete tutorial to build your personal website. So let’s start…
 
 [//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
+
+### Why consider building your website with HUGO/Blogdown/Netlify
+- A lightning-fast response (usually it takes a fraction of second to respond the edit)
+- A robust and easily maintainable static website generator with HUGO. No server side knowledge required.
+- Blogdown (Rmarkdown+HUGO) helps you to write scientific blogs including cool graphics and daunting mathematical equations.
+User-friendly deployment on a host server with Netlify.
 
 ### Get Started
 
@@ -39,48 +44,19 @@ Welcome 👋
 - 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
 - ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-## Crowd-funded open-source software
+## A kickstart guide
+- Install R studio and get comfortable with the environment
+- Install blowdown and Hugo by pasting the following code chunks in your R studio console
+install.packages("blogdown")
+blogdown::install_hugo(force = TRUE)
+- Download and extract the zip file. Open academic.Rproj from academic-kickstart folder.
+- In the RStudio console copy and paste 
+blogdown:::serve_site()
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+Your website is now ready for preview. Either use R studio IDE viewer or you can also copy and paste the generated url (e.g. http://127.0.0.1:3642) from R studio console into your browser.
+One can personalize the content of the website by editing the ‘content’ and ‘static’ folders. The folder’s name are self explanatory however you still need to spend some time here to understand the role of each file and the effect on editing. A good point of start would be ‘conf.toml’ file. Feel free to explore here all the options and for more information, please read the references provided at the end of this blog.
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+## Deployment
+Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. You just have to drag your public folder from the academic-kickstart project directory and drop it in the deployment settings (watch video). You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser and congratulations!! time to welcome your digital identity into the world.
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
 
-## Ecosystem
-
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
-
-## Inspiration
-
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
-
-## Features
-
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
-
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.

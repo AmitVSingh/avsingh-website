@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/academic/</link>
+      <atom:link href="http://localhost:1313/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Academic</title>
+      <link>http://localhost:1313/tags/academic/</link>
+    </image>
+    
+    <item>
+      <title>🎉 Easily create your own simple yet highly customizable website</title>
+      <link>http://localhost:1313/post/get-started/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/get-started/</guid>
+      <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+
+
+
+&lt;details class=&#34;print:hidden xl:hidden&#34; open&gt;
+  &lt;summary&gt;Table of Contents&lt;/summary&gt;
+  &lt;div class=&#34;text-sm&#34;&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#why-consider-building-your-website-with-hugoblogdownnetlify&#34;&gt;Why consider building your website with HUGO/Blogdown/Netlify&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#get-started&#34;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#a-kickstart-guide&#34;&gt;A kickstart guide&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#deployment&#34;&gt;Deployment&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;!-- ## Overview --&gt;
+&lt;p&gt;Since the dawn of human civilization, we have been talking about the transformation of one or other kind. In this digital age, when human and machine interaction has increased manifolds, it has already started shaping ourself be it the fruits of our hard work in form of digital currencies, our creativity like composing music and writing a novel by AI machines, or communicating with human-like chatbots. The best way to respond to this change between carbon-based life and silicon-based life is by merging our identities with machines in forms of bits and bytes. Conventionally, bytes are used to store memory and bits for streaming the data. A baby step would be first to register our presence by building a personal websites. These websites would be the digital warehouses where we can store the relevant information and communicate it with the outer world.&lt;/p&gt;
+&lt;p&gt;In this blog, I will give you a brief yet complete tutorial to build your personal website. So let’s start…&lt;/p&gt;
+&lt;h3 id=&#34;why-consider-building-your-website-with-hugoblogdownnetlify&#34;&gt;Why consider building your website with HUGO/Blogdown/Netlify&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A lightning-fast response (usually it takes a fraction of second to respond the edit)&lt;/li&gt;
+&lt;li&gt;A robust and easily maintainable static website generator with HUGO. No server side knowledge required.&lt;/li&gt;
+&lt;li&gt;Blogdown (Rmarkdown+HUGO) helps you to write scientific blogs including cool graphics and daunting mathematical equations.
+User-friendly deployment on a host server with Netlify.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://hugoblox.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://docs.hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Hugo Blox community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/GetResearchDev&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GetResearchDev&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; #MadeWithHugoBlox&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Hugo Blox&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Hugo Blox?&lt;/strong&gt; View the &lt;a href=&#34;https://docs.hugoblox.com/reference/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;a-kickstart-guide&#34;&gt;A kickstart guide&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Install R studio and get comfortable with the environment&lt;/li&gt;
+&lt;li&gt;Install blowdown and Hugo by pasting the following code chunks in your R studio console
+install.packages(&amp;ldquo;blogdown&amp;rdquo;)
+blogdown::install_hugo(force = TRUE)&lt;/li&gt;
+&lt;li&gt;Download and extract the zip file. Open academic.Rproj from academic-kickstart folder.&lt;/li&gt;
+&lt;li&gt;In the RStudio console copy and paste
+blogdown:::serve_site()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Your website is now ready for preview. Either use R studio IDE viewer or you can also copy and paste the generated url (e.g. http://127.0.0.1:3642) from R studio console into your browser.
+One can personalize the content of the website by editing the ‘content’ and ‘static’ folders. The folder’s name are self explanatory however you still need to spend some time here to understand the role of each file and the effect on editing. A good point of start would be ‘conf.toml’ file. Feel free to explore here all the options and for more information, please read the references provided at the end of this blog.&lt;/p&gt;
+&lt;h2 id=&#34;deployment&#34;&gt;Deployment&lt;/h2&gt;
+&lt;p&gt;Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. You just have to drag your public folder from the academic-kickstart project directory and drop it in the deployment settings (watch video). You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser and congratulations!! time to welcome your digital identity into the world.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
