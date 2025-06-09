@@ -35,10 +35,10 @@ sections:
       title: '📚 My Mission'
       subtitle: ''
       text: |-
+        I believe in building systems that last — not just in uptime, but in relevance and impact. That means combining sound engineering with practical insight, and integrating technical innovation with organizational goals.
+        
         I am working at a high-tech company to implement solutions that are not only high-performing today but resilient and sustainable for the future. My work spans across digital transformation, smart manufacturing, and intelligent automation, with an emphasis on system architecture, operational scalability, and technology alignment.
         
-        I believe in building systems that last — not just in uptime, but in relevance and impact. That means combining sound engineering with practical insight, and integrating technical innovation with organizational goals.
-
         With a focus on long-term value, I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
