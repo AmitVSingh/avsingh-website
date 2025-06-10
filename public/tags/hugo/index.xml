@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/hugo/</link>
       <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Hugo</title>
@@ -13,49 +13,9 @@
     </image>
     
     <item>
-      <title>Academic Projects</title>
-      <link>http://localhost:1313/project/academia/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/academia/</guid>
-      <description>&lt;p&gt;My Ph.D. research focuses on the topic ‘Spatiotemporal evolution of non-diffracting plasmonic pulses’. It has been divided into two phases ‘test-out research’ and ‘exploratory research’. In the so called ‘test-out phase’, a small incremental step has been taken to the established framework of published research on ‘Airy surface plasmons’. Airy plasmons are non-differacting electromganetic solution that can propagate on metal-dielectric interface. So far, researchers had investigated the non-diffracting properties only in spatial domains in 3 dimensions. My team have further investigated the 4th dimension the ‘time’ and it’s interdependence on space. The new phenomenon has been given a name ‘Airy plasmon pulses’. It studies the effect of pulsed excitation on non-diffracting properties of Airy plasmons. The graphics shows the Airy plasmon propagation on metal dielectric interface investigated by photoemission electron microscopy (PEEM). The image has been rendered using open source ray tracing software PovRay.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for the image&#34; srcset=&#34;
-               /project/academia/airy_plasmon_hu14438851338555572222.webp 400w,
-               /project/academia/airy_plasmon_hu7596248805277158737.webp 760w,
-               /project/academia/airy_plasmon_hu12980440330386277634.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/academia/airy_plasmon_hu14438851338555572222.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;480&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;As the name suggest it is a 4 dimensional complex scientific problem. The problem has been broken down into two parts. The first part numerical simulation and second, experimental verification of the numerically calculated results. My contribution to the project has been in devising and managing very large scale numerical simulations of light scattering into various forms of surface plasmon polaritons on structured gold surfaces. To this end, I have been using two large software packages, one open-source MEEP and one commercial Lumerical FDTD Solutions, implementing the numerical finite-difference time-domain method which has so far been the only method that could provide rigorous solutions for the electromagnetic fields in the femtosecond domain. The use of these software packages is complex and years of dedicated work are required for reaching the expertise level. Aforementioned methods are very time and memory consuming numerical tools. My research institute ‘Institute of Applied Physics’ maintains several multi-CPU compute servers and a high performance compute cluster consisting of ~2000 cores. I used the availble resources to perform this challenging computational task.&lt;/p&gt;
-&lt;p&gt;The post processing of the data was performed in Matlab. A colleague from our research team has further verified the numerical results experimentally and a good agreement has been found between numerical and experimental results. The non-diffracting properties of Airy plasmon remains intact even under short pulse excitation. This is an interesting finding and implies large bandwidth of information can be carried without significant diffraction and dispersion over 30 µm on a metal-dielectric interface. This can find an interesting application in optical interconnects and communication devices. The results have been published in OSA Continnum.&lt;/p&gt;
-&lt;p&gt;The second phase of the research which I have made an original contribution to science by introducing the concept of ‘Airy plasmon pulses.’ This project investigates the spatiotemporal evolution of Airy plasmon pulses under very short fs pulse. The proof of the concept has been provided using numerical, analytical, semi-analytical methods. The work is published in Optics Express.&lt;/p&gt;
-&lt;p&gt;I defended my Ph.D. thesis on 01.02.2022 and have been awarded a Ph.D. degree (Dr. rer. nat.).&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Industry Projects</title>
       <link>http://localhost:1313/project/industry/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/industry/</guid>
       <description>&lt;h3 id=&#34;designoptical-engineer-at-asml-netherlands-042024--present&#34;&gt;Design/optical engineer at ASML Netherlands 04/2024 – Present&lt;/h3&gt;
 &lt;ul&gt;
@@ -125,6 +85,46 @@ It is always a good idea to solve the same problem using different tool. I have 
 &lt;p&gt;Python: &lt;a href=&#34;https://credentials.edx.org/credentials/3f7d1a9873fd458a90bef39d8882a83e/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See certificate&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;capstone-project-2&#34;&gt;Capstone Project 2&lt;/h3&gt;
 &lt;h4 id=&#34;smart-manufacturing-ongoing-with-mit-professional-education&#34;&gt;Smart manufacturing (ongoing) with MIT Professional Education&lt;/h4&gt;</description>
+    </item>
+    
+    <item>
+      <title>Academic Projects</title>
+      <link>http://localhost:1313/project/academia/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/academia/</guid>
+      <description>&lt;p&gt;My Ph.D. research focuses on the topic ‘Spatiotemporal evolution of non-diffracting plasmonic pulses’. It has been divided into two phases ‘test-out research’ and ‘exploratory research’. In the so called ‘test-out phase’, a small incremental step has been taken to the established framework of published research on ‘Airy surface plasmons’. Airy plasmons are non-differacting electromganetic solution that can propagate on metal-dielectric interface. So far, researchers had investigated the non-diffracting properties only in spatial domains in 3 dimensions. My team have further investigated the 4th dimension the ‘time’ and it’s interdependence on space. The new phenomenon has been given a name ‘Airy plasmon pulses’. It studies the effect of pulsed excitation on non-diffracting properties of Airy plasmons. The graphics shows the Airy plasmon propagation on metal dielectric interface investigated by photoemission electron microscopy (PEEM). The image has been rendered using open source ray tracing software PovRay.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for the image&#34; srcset=&#34;
+               /project/academia/airy_plasmon_hu14438851338555572222.webp 400w,
+               /project/academia/airy_plasmon_hu7596248805277158737.webp 760w,
+               /project/academia/airy_plasmon_hu12980440330386277634.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/academia/airy_plasmon_hu14438851338555572222.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;480&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;As the name suggest it is a 4 dimensional complex scientific problem. The problem has been broken down into two parts. The first part numerical simulation and second, experimental verification of the numerically calculated results. My contribution to the project has been in devising and managing very large scale numerical simulations of light scattering into various forms of surface plasmon polaritons on structured gold surfaces. To this end, I have been using two large software packages, one open-source MEEP and one commercial Lumerical FDTD Solutions, implementing the numerical finite-difference time-domain method which has so far been the only method that could provide rigorous solutions for the electromagnetic fields in the femtosecond domain. The use of these software packages is complex and years of dedicated work are required for reaching the expertise level. Aforementioned methods are very time and memory consuming numerical tools. My research institute ‘Institute of Applied Physics’ maintains several multi-CPU compute servers and a high performance compute cluster consisting of ~2000 cores. I used the availble resources to perform this challenging computational task.&lt;/p&gt;
+&lt;p&gt;The post processing of the data was performed in Matlab. A colleague from our research team has further verified the numerical results experimentally and a good agreement has been found between numerical and experimental results. The non-diffracting properties of Airy plasmon remains intact even under short pulse excitation. This is an interesting finding and implies large bandwidth of information can be carried without significant diffraction and dispersion over 30 µm on a metal-dielectric interface. This can find an interesting application in optical interconnects and communication devices. The results have been published in OSA Continnum.&lt;/p&gt;
+&lt;p&gt;The second phase of the research which I have made an original contribution to science by introducing the concept of ‘Airy plasmon pulses.’ This project investigates the spatiotemporal evolution of Airy plasmon pulses under very short fs pulse. The proof of the concept has been provided using numerical, analytical, semi-analytical methods. The work is published in Optics Express.&lt;/p&gt;
+&lt;p&gt;I defended my Ph.D. thesis on 01.02.2022 and have been awarded a Ph.D. degree (Dr. rer. nat.).&lt;/p&gt;</description>
     </item>
     
     <item>

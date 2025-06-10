@@ -1,6 +1,6 @@
 ---
 title: Industry Projects
-date: 2023-10-26
+date: 2025-06-10
 # external_link: ""
 tags:
   - Hugo
