@@ -58,7 +58,7 @@ education:
     date_start: 2014-10-01
     date_end: 2022-03-01
     summary: |
-      Thesis on _Spatiotemporal evolution of non-diffracting plasmonic pulses_. Supervised by [Prof Thomas Pertsch](https://www.physik.uni-jena.de/4490/pertsch-thomas-1970). Presented papers at 3 conferences with the contributions being published in 2 Optica journals.
+      Thesis on _Spatiotemporal evolution of non-diffracting plasmonic pulses_. Supervised by [Prof Thomas Pertsch](https://www.physik.uni-jena.de/4490/pertsch-thomas-1970). Presented my work at 4 conferences and published 2 articles as first author in Optica journals.
     button:
       text: 'Read Thesis'
       url: 'https://www.db-thueringen.de/receive/dbt_mods_00051529'
@@ -153,31 +153,32 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Optical system design
+    url: https://www.coursera.org/specializations/optical-engineering?
+    certificate_url: https://www.coursera.org/account/accomplishments/verify/2ZN85PR83Q7M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course  
+    date: '2021-07-03'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
+      This is baseline course in optical system design (paraxial) for to model, analyze, and optimize first-order lens designs using Zemax. This complements well with my PhD projects on physical optics Gaussian and Fourier transform beam propagation modeling (FT_BPM repo on my github page).   
+  - title: Professional data science course in Python
+    url: https://www.edx.org/certificates/professional-certificate/ibm-python-data-science?index=product&queryId=9bab8b14c3b26e37cda1d5b1c72747a5&position=1
+    certificate_url: https://credentials.edx.org/credentials/3f7d1a9873fd458a90bef39d8882a83e/
+    date: '2019-06-21'
     awarder: edX
     icon: edx
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      - Completed IBM’s Data Science Professional Certificate, focused on Python-based data analysis, statistics, and machine learning.
+      - Built a 'movie recommendation system' that applied predictive analytics and visualization to solve a complex, data-driven problem from end to end.
+  - title: Professional data science course in R
+    url: https://www.edx.org/certificates/professional-certificate/harvardx-data-science
+    certificate_url: https://credentials.edx.org/credentials/507243acddcf492ba41b9f5893c3b497/
+    date: '2019-06-29'
+    awarder: edx
+    icon: edx
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I completed Harvard's Professional Certificate in Data Science, where I learned to analyze data, build models, and apply statistical methods through real-world case studies. For the capstone project, I tackled the NYC housing complaints problem, using data-driven insights to identify and address key urban issues.
 ---
 
 ## About Me

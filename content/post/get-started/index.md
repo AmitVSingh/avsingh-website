@@ -32,7 +32,7 @@ In this blog, I will give you a brief yet complete tutorial to build your person
 ### Why consider building your website with HUGO/Blogdown/Netlify
 - A lightning-fast response (usually it takes a fraction of second to respond the edit)
 - A robust and easily maintainable static website generator with HUGO. No server side knowledge required.
-- Blogdown (Rmarkdown+HUGO) helps you to write scientific blogs including cool graphics and daunting mathematical equations.
+- Simple markdown files help you to write scientific blogs including cool graphics and daunting mathematical equations.
 User-friendly deployment on a host server with Netlify.
 
 ### Get Started

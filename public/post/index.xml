@@ -5,7 +5,7 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Blog</title>
@@ -15,7 +15,7 @@
     <item>
       <title>🎉 Build your digital twin</title>
       <link>http://localhost:1313/post/get-started/</link>
-      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 &lt;ul&gt;
 &lt;li&gt;A lightning-fast response (usually it takes a fraction of second to respond the edit)&lt;/li&gt;
 &lt;li&gt;A robust and easily maintainable static website generator with HUGO. No server side knowledge required.&lt;/li&gt;
-&lt;li&gt;Blogdown (Rmarkdown+HUGO) helps you to write scientific blogs including cool graphics and daunting mathematical equations.
+&lt;li&gt;Simple markdown files help you to write scientific blogs including cool graphics and daunting mathematical equations.
 User-friendly deployment on a host server with Netlify.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;get-started&#34;&gt;Get Started&lt;/h3&gt;
@@ -58,7 +58,7 @@ User-friendly deployment on a host server with Netlify.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;One can personalize the content of the website by editing the ‘content’ and ‘static’ folders. The folder’s name are self explanatory however you still need to spend some time here to understand the role of each file and the effect on editing. A good point of start would be ‘conf.toml’ file. Feel free to explore here all the options and for more information, please read the references provided at the end of this blog.&lt;/p&gt;
 &lt;h2 id=&#34;deployment&#34;&gt;Deployment&lt;/h2&gt;
-&lt;p&gt;Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. Link your Github repo to the netlify account. You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser. Now each time your Github repo gets updated, it will get automatically deployed to the netlify.&lt;/p&gt;
+&lt;p&gt;Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. Link your Github repo to the netlify account. You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser. Now each time your Github repo gets updated, it will get automatically deployed and published by the netlify.&lt;/p&gt;
 &lt;p&gt;Congratulations 👏. Time to welcome your digital identity into the world!&lt;/p&gt;
 </description>
     </item>
