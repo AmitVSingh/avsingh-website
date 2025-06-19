@@ -1,7 +1,7 @@
 ---
 title: 🎉 Build your digital twin
 summary: Build aesthetically pleasing ‘personal websites’ for free…
-date: 2023-10-27
+date: 2025-06-14
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
