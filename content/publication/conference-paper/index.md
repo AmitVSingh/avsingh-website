@@ -40,17 +40,16 @@ tags:
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
+links:
+- name: Link
+  url: https://opg.optica.org/osac/fulltext.cfm?uri=osac-3-7-1870&id=433235
 # url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
-url_source: 'https://opg.optica.org/osac/fulltext.cfm?uri=osac-3-7-1870&id=433235'
+# url_source: 'https://opg.optica.org/osac/fulltext.cfm?uri=osac-3-7-1870&id=433235'
 # url_video: 'https://youtube.com'
 
 # Featured image
