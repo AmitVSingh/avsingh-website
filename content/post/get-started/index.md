@@ -46,7 +46,7 @@ User-friendly deployment on a host server with Netlify.
 One can personalize the content of the website by editing the ‘content’ and ‘static’ folders. The folder’s name are self explanatory however you still need to spend some time here to understand the role of each file and the effect on editing. A good point of start would be ‘conf.toml’ file. Feel free to explore here all the options and for more information, please read the references provided at the end of this blog.
 
 ## Deployment
-Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. Link your Github repo to the netlify account. You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser. Now each time your Github repo gets updated, it will get automatically deployed to the netlify. 
+Now that you have build your stunning website, it’s time to deploy it to a host server. Don’t worry! we will do it in the easiest way possible with a user friendly website Netlify. Link your Github repo to the netlify account. You can further customize the URL for example “name.netlify.com” with the domain settings tab. You are all set to copy this brand new URL into your browser. Now each time your Github repo gets updated, it will get automatically deployed and published by the netlify. 
 
 Congratulations 👏. Time to welcome your digital identity into the world!
 
