@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "name": "Amit V Singh",
+    "role": "Optical & Systems Engineer",
+    "headlineBefore": "Engineering complex systems from",
+    "headlineHighlight": "physics",
+    "headlineAfter": "to production.",
+    "summary": "I work across photonics, semiconductor equipment, industrialization, and intelligent automation—turning rigorous analysis into systems that perform reliably in the real world.",
+    "email": "amitvsingh0305@gmail.com",
+    "github": "https://github.com/AmitVSingh",
+    "linkedin": "https://www.linkedin.com/in/dr-amit-vikram-singh-7ba45689/"
+  },
+  "focusAreas": [
+    {"title": "Optics & photonics", "detail": "Simulation · design · validation"},
+    {"title": "Complex equipment", "detail": "Industrialization · reliability"},
+    {"title": "Intelligent systems", "detail": "Data · automation · AI"}
+  ],
+  "selectedWork": {
+    "title": "Where deep engineering meets practical delivery.",
+    "intro": "My work connects modelling, experimentation, system behaviour, and operational decisions.",
+    "items": [
+      {"label": "01 / OPTICAL SYSTEMS", "title": "From source physics to illumination performance", "description": "Modelling and validating optical architectures, source behaviour, beam propagation, and design sensitivities for demanding applications.", "tags": ["Ray tracing", "Optical design", "Python"]},
+      {"label": "02 / INDUSTRIALIZATION", "title": "Making complex equipment ready for the field", "description": "Connecting design, factory, and service perspectives to improve qualification, diagnostics, availability, and knowledge transfer.", "tags": ["RCA", "System validation", "Reliability"]},
+      {"label": "03 / INTELLIGENT ENGINEERING", "title": "Augmenting engineering with data and AI", "description": "Exploring practical workflows that combine simulation data, domain knowledge, automation, and compact language models.", "tags": ["RAG", "Data science", "Automation"]}
+    ]
+  },
+  "journey": {
+    "title": "A career built across scales.",
+    "intro": "From nanoscale electromagnetic fields to large industrial systems, the common thread is understanding how individual decisions shape total-system performance.",
+    "stages": [
+      {"label": "FOUNDATION", "title": "Physics & applied optics", "description": "A rigorous base in wave optics, metrology, modelling, and experimentation."},
+      {"label": "RESEARCH", "title": "Computational photonics", "description": "PhD research on the spatiotemporal dynamics of non-diffracting plasmonic pulses."},
+      {"label": "INDUSTRY", "title": "Semiconductor systems", "description": "Cross-functional design and industrialization work on highly complex lithography equipment."},
+      {"label": "TODAY", "title": "Industrial optical systems", "description": "Developing optical solutions while expanding into smart manufacturing and AI-enabled engineering."}
+    ],
+    "principle": "Build systems that last—not only in uptime, but in relevance and impact.",
+    "principleDetail": "I combine engineering depth with process insight. That means working from first principles, challenging assumptions with data, and designing solutions that remain understandable and useful beyond the first successful prototype."
+  },
+  "research": {
+    "title": "Spatiotemporal evolution of non-diffracting plasmonic pulses",
+    "paragraphs": [
+      "My doctoral research investigated how ultrashort Airy plasmon pulses propagate across structured metal–dielectric interfaces. The work combined large-scale FDTD simulation with analytical and experimental approaches.",
+      "It strengthened the method I still use today: break a complex physical system into testable questions, select the right model, and connect numerical results to measurable behaviour."
+    ],
+    "thesisUrl": "https://www.db-thueringen.de/receive/dbt_mods_00051529"
+  },
+  "capabilities": [
+    {"title": "Optics", "description": "FDTD, FEM, BPM, ray tracing, beam shaping, optical metrology"},
+    {"title": "Systems", "description": "Qualification, troubleshooting, root-cause analysis, reliability"},
+    {"title": "Data", "description": "Python, MATLAB, numerical modelling, analysis, visualization"},
+    {"title": "Transformation", "description": "Smart manufacturing, technology roadmapping, AI workflows"}
+  ],
+  "contact": "Let’s connect across optics, systems, and intelligent manufacturing.",
+  "copyrightYear": 2026
+}
