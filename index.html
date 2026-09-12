@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Amit V Singh — optical and systems engineer working across photonics, semiconductor systems, industrialization, and AI-enabled engineering.">
+  <meta name="theme-color" content="#07121f">
+  <title>Amit V Singh — Optical & Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307121f'/%3E%3Cpath d='M13 47 29 14h7l15 33h-9l-3-8H25l-4 8Zm15-16h8l-4-10Z' fill='%235de4c7'/%3E%3C/svg%3E">
+  <style>
+    :root{--ink:#07121f;--ink2:#0d1d2d;--paper:#f4f7f8;--white:#fff;--muted:#9fb0be;--text:#263746;--aqua:#5de4c7;--amber:#ffca68;--line:rgba(255,255,255,.13);--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--text);font-family:"DM Sans",sans-serif;font-size:17px;line-height:1.65}a{color:inherit}img{display:block;max-width:100%}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .hero{position:relative;overflow:hidden;min-height:760px;color:var(--white);background:var(--ink);isolation:isolate}.hero:before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(circle at 78% 20%,rgba(93,228,199,.15),transparent 30%),linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:auto,64px 64px,64px 64px}.hero:after{content:"";position:absolute;width:680px;height:680px;border:1px solid rgba(93,228,199,.25);border-radius:50%;right:-250px;top:80px;box-shadow:0 0 0 80px rgba(93,228,199,.025),0 0 0 180px rgba(93,228,199,.018);z-index:-1}
+    nav{height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font:800 20px/1 "Manrope";text-decoration:none;letter-spacing:-.03em}.brand span{color:var(--aqua)}.navlinks{display:flex;gap:30px;align-items:center}.navlinks a{text-decoration:none;color:#c8d3dc;font-size:15px;font-weight:600}.navlinks a:hover{color:var(--aqua)}
+    .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:72px;align-items:center;padding:90px 0 110px}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--aqua);font-size:13px;text-transform:uppercase;letter-spacing:.16em;font-weight:700}.eyebrow:before{content:"";width:34px;height:2px;background:var(--aqua)}h1,h2,h3{font-family:"Manrope",sans-serif;color:var(--ink);letter-spacing:-.045em}.hero h1{color:#fff;font-size:clamp(48px,6vw,82px);line-height:1.03;margin:24px 0 28px;max-width:850px}.hero h1 em{color:var(--aqua);font-style:normal}.lede{max-width:740px;color:#b9c7d1;font-size:20px;line-height:1.65}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:38px}.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:5px;text-decoration:none;font-weight:700;font-size:15px;border:1px solid var(--line)}.btn.primary{background:var(--aqua);color:var(--ink);border-color:var(--aqua)}.btn.secondary:hover{border-color:var(--aqua);color:var(--aqua)}.portrait-card{position:relative;max-width:330px;justify-self:end}.portrait-card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 18%;border-radius:8px;filter:saturate(.86);border:1px solid rgba(255,255,255,.16)}.portrait-card:before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--aqua);border-radius:8px;z-index:-1}.micro{margin-top:32px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);padding-top:26px;gap:18px}.micro strong{display:block;color:#fff;font:700 15px "Manrope"}.micro span{color:#8498a8;font-size:13px}
+    section{padding:104px 0}.section-head{display:grid;grid-template-columns:.55fr 1.45fr;gap:70px;margin-bottom:54px}.kicker{color:#198b79;font-size:13px;text-transform:uppercase;letter-spacing:.16em;font-weight:800}.section-head h2{font-size:clamp(36px,4vw,55px);line-height:1.08;margin:0}.section-head p{margin:8px 0 0;font-size:20px;max-width:700px;color:#526676}
+    .work{background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{min-height:360px;background:#f3f6f7;border:1px solid #dbe4e8;border-radius:7px;padding:30px;display:flex;flex-direction:column;transition:.2s transform,.2s box-shadow}.card:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(7,18,31,.09)}.num{font:700 13px "Manrope";color:#198b79;letter-spacing:.12em}.card h3{font-size:25px;line-height:1.2;margin:62px 0 16px}.card p{margin:0;color:#586a77}.tags{margin-top:auto;padding-top:28px;display:flex;gap:7px;flex-wrap:wrap}.tag{font-size:12px;font-weight:700;color:#3d5362;border:1px solid #cbd8dd;padding:5px 8px;border-radius:3px}
+    .story{background:var(--ink);color:#bbcad4}.story h2,.story h3{color:#fff}.story .kicker{color:var(--aqua)}.story .section-head p{color:#a9bbc7}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line)}.phase{position:relative;padding:34px 30px 0 0}.phase:before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--aqua);box-shadow:0 0 0 6px rgba(93,228,199,.1)}.phase time{color:var(--aqua);font:700 13px "Manrope"}.phase h3{font-size:21px;margin:16px 0 10px;letter-spacing:-.025em}.phase p{font-size:15px;color:#92a7b6;margin:0}.principle{margin-top:70px;border:1px solid var(--line);padding:38px;display:grid;grid-template-columns:1fr 2fr;gap:50px;background:rgba(255,255,255,.025)}.principle .quote{font:700 clamp(27px,3vw,40px)/1.25 "Manrope";color:#fff;letter-spacing:-.04em;margin:0}.principle p{margin:0;color:#9fb2bf}
+    .research{background:#eef3f4}.research-grid{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;background:#fff;border:1px solid #d9e2e6}.research-image{min-height:470px;background:var(--ink);display:flex;align-items:center;justify-content:center;overflow:hidden}.research-image img{width:100%;height:100%;object-fit:cover;opacity:.78}.research-copy{padding:54px}.research-copy h2{font-size:40px;line-height:1.12;margin:15px 0 20px}.research-copy p{color:#566b79}.link{display:inline-flex;gap:9px;align-items:center;margin-top:18px;color:#087967;text-decoration:none;font-weight:800}.link:hover{text-decoration:underline}
+    .capabilities{background:#fff}.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #dbe4e8}.cap{padding:28px;border-right:1px solid #dbe4e8}.cap:last-child{border:0}.cap svg{width:28px;height:28px;color:#158975}.cap h3{font-size:18px;letter-spacing:-.02em;margin:22px 0 8px}.cap p{font-size:14px;color:#617482;margin:0}
+    .contact{padding:90px 0;background:var(--amber)}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:40px}.contact h2{font-size:clamp(38px,5vw,64px);line-height:1.06;margin:0;max-width:760px}.contact .btn{border-color:var(--ink);white-space:nowrap}.contact .btn:hover{background:var(--ink);color:#fff}
+    footer{background:var(--ink);color:#8398a8;padding:28px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;font-size:14px}.social{display:flex;gap:18px}.social a{text-decoration:none;color:#b9c8d2}.social a:hover{color:var(--aqua)}
+    @media(max-width:900px){.navlinks a:not(.nav-cta){display:none}.hero{min-height:auto}.hero-grid{grid-template-columns:1fr;padding:70px 0 90px}.portrait-card{display:none}.section-head{grid-template-columns:1fr;gap:18px}.cards{grid-template-columns:1fr}.card{min-height:290px}.card h3{margin-top:38px}.timeline{grid-template-columns:1fr;border-top:0;border-left:1px solid var(--line);margin-left:5px}.phase{padding:0 0 40px 30px}.phase:before{top:7px;left:-5px}.principle{grid-template-columns:1fr}.research-grid{grid-template-columns:1fr}.research-image{min-height:330px}.cap-grid{grid-template-columns:1fr 1fr}.cap:nth-child(2){border-right:0}.cap:nth-child(-n+2){border-bottom:1px solid #dbe4e8}.contact-inner{align-items:flex-start;flex-direction:column}}
+    @media(max-width:560px){body{font-size:16px}.wrap{width:min(100% - 28px,var(--max))}nav{height:72px}.hero-grid{padding-top:54px}.hero h1{font-size:43px}.lede{font-size:18px}.micro{grid-template-columns:1fr 1fr}.micro div:last-child{grid-column:1/-1}section{padding:76px 0}.section-head{margin-bottom:38px}.research-copy{padding:30px 24px}.cap-grid{grid-template-columns:1fr}.cap,.cap:nth-child(2){border-right:0;border-bottom:1px solid #dbe4e8}.footer-inner{flex-direction:column}.contact{padding:70px 0}}
+  </style>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="wrap">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="#top">AV<span>.</span></a>
+        <div class="navlinks"><a href="#work">Work</a><a href="#journey">Journey</a><a href="#research">Research</a><a class="nav-cta" data-email href="mailto:amitvsingh0305@gmail.com">Contact</a></div>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow" id="role">Optical &amp; Systems Engineer</div>
+          <h1 id="headline">Engineering complex systems from <em>physics</em> to production.</h1>
+          <p class="lede" id="summary">I work across photonics, semiconductor equipment, industrialization, and intelligent automation—turning rigorous analysis into systems that perform reliably in the real world.</p>
+          <div class="actions"><a class="btn primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="btn secondary" href="https://amitvsingh.netlify.app/uploads/resume_amitvsingh.pdf">Download CV</a></div>
+          <div class="micro" id="focus-areas"><div><strong>Optics &amp; photonics</strong><span>Simulation · design · validation</span></div><div><strong>Complex equipment</strong><span>Industrialization · reliability</span></div><div><strong>Intelligent systems</strong><span>Data · automation · AI</span></div></div>
+        </div>
+        <aside class="portrait-card" aria-label="Portrait of Amit V Singh"><img src="assets/amit-singh.jpg" alt="Amit V Singh"></aside>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="work" id="work">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Selected work</div><div><h2 id="work-title">Where deep engineering meets practical delivery.</h2><p id="work-intro">My work connects modelling, experimentation, system behaviour, and operational decisions.</p></div></div>
+        <div class="cards" id="work-cards">
+          <article class="card"><span class="num">01 / OPTICAL SYSTEMS</span><h3>From source physics to illumination performance</h3><p>Modelling and validating optical architectures, source behaviour, beam propagation, and design sensitivities for demanding applications.</p><div class="tags"><span class="tag">Ray tracing</span><span class="tag">Optical design</span><span class="tag">Python</span></div></article>
+          <article class="card"><span class="num">02 / INDUSTRIALIZATION</span><h3>Making complex equipment ready for the field</h3><p>Connecting design, factory, and service perspectives to improve qualification, diagnostics, availability, and knowledge transfer.</p><div class="tags"><span class="tag">RCA</span><span class="tag">System validation</span><span class="tag">Reliability</span></div></article>
+          <article class="card"><span class="num">03 / INTELLIGENT ENGINEERING</span><h3>Augmenting engineering with data and AI</h3><p>Exploring practical workflows that combine simulation data, domain knowledge, automation, and compact language models.</p><div class="tags"><span class="tag">RAG</span><span class="tag">Data science</span><span class="tag">Automation</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="journey">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Engineering journey</div><div><h2 id="journey-title">A career built across scales.</h2><p id="journey-intro">From nanoscale electromagnetic fields to large industrial systems, the common thread is understanding how individual decisions shape total-system performance.</p></div></div>
+        <div class="timeline" id="timeline">
+          <div class="phase"><time>FOUNDATION</time><h3>Physics &amp; applied optics</h3><p>A rigorous base in wave optics, metrology, modelling, and experimentation.</p></div>
+          <div class="phase"><time>RESEARCH</time><h3>Computational photonics</h3><p>PhD research on the spatiotemporal dynamics of non-diffracting plasmonic pulses.</p></div>
+          <div class="phase"><time>INDUSTRY</time><h3>Semiconductor systems</h3><p>Cross-functional design and industrialization work on highly complex lithography equipment.</p></div>
+          <div class="phase"><time>TODAY</time><h3>Industrial optical systems</h3><p>Developing optical solutions while expanding into smart manufacturing and AI-enabled engineering.</p></div>
+        </div>
+        <div class="principle"><p class="quote" id="principle">“Build systems that last—not only in uptime, but in relevance and impact.”</p><p id="principle-detail">I combine engineering depth with process insight. That means working from first principles, challenging assumptions with data, and designing solutions that remain understandable and useful beyond the first successful prototype.</p></div>
+      </div>
+    </section>
+
+    <section class="research" id="research">
+      <div class="wrap">
+        <div class="research-grid">
+          <div class="research-image"><img src="assets/airy-plasmon.png" alt="Visualization of an Airy plasmon propagating along a structured surface"></div>
+          <div class="research-copy"><div class="kicker">Featured research</div><h2 id="research-title">Spatiotemporal evolution of non-diffracting plasmonic pulses</h2><div id="research-paragraphs"><p>My doctoral research investigated how ultrashort Airy plasmon pulses propagate across structured metal–dielectric interfaces. The work combined large-scale FDTD simulation with analytical and experimental approaches.</p><p>It strengthened the method I still use today: break a complex physical system into testable questions, select the right model, and connect numerical results to measurable behaviour.</p></div><a class="link" id="thesis-link" href="https://www.db-thueringen.de/receive/dbt_mods_00051529">Read the thesis <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="capabilities" aria-labelledby="capabilities-title">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Capabilities</div><div><h2 id="capabilities-title">A multidisciplinary engineering toolkit.</h2></div></div>
+        <div class="cap-grid" id="cap-grid">
+          <div class="cap"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><path d="M2 12h20M12 2c3 3 3 17 0 20M12 2c-3 3-3 17 0 20"/></svg><h3>Optics</h3><p>FDTD, FEM, BPM, ray tracing, beam shaping, optical metrology</p></div>
+          <div class="cap"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m4 15 8 5 8-5M4 10l8 5 8-5-8-5-8 5Z"/></svg><h3>Systems</h3><p>Qualification, troubleshooting, root-cause analysis, reliability</p></div>
+          <div class="cap"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 19V9m7 10V4m7 15v-7"/></svg><h3>Data</h3><p>Python, MATLAB, numerical modelling, analysis, visualization</p></div>
+          <div class="cap"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v4m0 10v4M3 12h4m10 0h4M5.6 5.6l2.8 2.8m7.2 7.2 2.8 2.8m0-12.8-2.8 2.8m-7.2 7.2-2.8 2.8"/><circle cx="12" cy="12" r="4"/></svg><h3>Transformation</h3><p>Smart manufacturing, technology roadmapping, AI workflows</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact"><div class="wrap contact-inner"><h2 id="contact-title">Let’s connect across optics, systems, and intelligent manufacturing.</h2><a class="btn" data-email href="mailto:amitvsingh0305@gmail.com">Start a conversation →</a></div></section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><span id="copyright">© 2026 Amit V Singh</span><div class="social"><a id="github-link" href="https://github.com/AmitVSingh">GitHub</a><a id="linkedin-link" href="https://www.linkedin.com/in/dr-amit-vikram-singh-7ba45689/">LinkedIn</a><a href="#top">Back to top ↑</a></div></div></footer>
+  <script src="content-loader.js"></script>
+</body>
+</html>
