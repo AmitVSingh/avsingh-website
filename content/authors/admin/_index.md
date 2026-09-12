@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Design Engineer
+role: R&D Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ASML
-    url: https://www.asml.com/en
+  - name: Hoenle AG
+    url: https://www.hoenle.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -37,7 +37,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/AmitVSingh
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/amit-vikram-singh-ph-d-7ba45689/
+    url: https://www.linkedin.com/in/dr-amit-vikram-singh-7ba45689/
   - icon: brands/instagram
     url: https://www.instagram.com/amitviking/
 #  - icon: brands/x
@@ -58,7 +58,7 @@ education:
     date_start: 2014-10-01
     date_end: 2022-03-01
     summary: |
-      Thesis on _Spatiotemporal evolution of non-diffracting plasmonic pulses_. Supervised by [Prof Thomas Pertsch](https://www.physik.uni-jena.de/4490/pertsch-thomas-1970). Presented my work at 4 conferences and published 2 articles as first author in Optica journals.
+      Thesis on _Spatiotemporal evolution of non-diffracting plasmonic pulses_. Supervised by [Prof Thomas Pertsch](https://www.physik.uni-jena.de/4490/pertsch-thomas-1970). Presented papers at 4 conferences and published in 2 articles as first author in Optica journals.
     button:
       text: 'Read Thesis'
       url: 'https://www.db-thueringen.de/receive/dbt_mods_00051529'
@@ -87,7 +87,7 @@ work:
     company_url: 'https://www.asml.com/en'
     company_logo: ''
     date_start: 2024-04-01
-    date_end: ''
+    date_end: 2025-10-31
     summary: |2-
       Responsibilities include:
       - Analyzed test data for optics modules, supporting strategic production decisions for the new lithography system.
@@ -183,4 +183,6 @@ awards:
 
 ## About Me
 
-I’m a design and industrial engineer with cross-functional experience in industrialization, product development and validation at ASML. My core mission is to build systems that last — technically robust, operationally reliable, and aligned with long-term organisational goals. I bridge engineering depth with process insight, enabling scalable, resilient technologies that integrate seamlessly into business operations.
+I’m an R&D engineer at Hoenle AG in Germany, specializing in industrial UV systems. Previously, I gained cross-functional experience in industrialization, product development, and system validation at ASML within the semiconductor industry. 
+
+My mission is to build systems that last—technically robust, operationally reliable, and aligned with long-term organizational goals. By combining engineering depth with process and business insight, I help transform complex technologies into scalable, resilient solutions that integrate seamlessly into real-world operations.
